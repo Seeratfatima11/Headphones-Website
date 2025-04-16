@@ -88,6 +88,15 @@
         margin-bottom: 5px;
     }
     /* about */
+    .about-slider,
+    .feature-img-box,
+    .style-img{
+        width: 50%;
+        margin: auto;
+    }
+    .about-section .carousel-inner{
+        border-radius: 0 0 1.875rem;
+    }
 
     /* headphone */
 
