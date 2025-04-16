@@ -378,6 +378,33 @@ p{
 
 /* 
 ==================================
-       Header Design
+   Features Section Design
 ==================================
 */
+.features .card{
+    cursor: pointer;
+}
+
+.features .card .icon{
+    box-shadow: 0.0625rem 0.25rem 1.25rem rgb(26 26 26 / 9%);
+    border-radius: 0;
+    padding: 1.25rem 0;
+    width: 5rem;
+    text-align: center;
+    height: auto;
+    margin-bottom: 2.5rem;
+    border-top-right-radius: 1.5625rem;
+}
+
+.features .card img{
+    display: block;
+    opacity: .75;
+    margin: 0 auto;
+    filter: brightness(0);
+}
+.features .card:hover .icon img{
+    filter: brightness(1);
+}
+.features .card:hover h4{
+    color: var(--primary-color);
+}
